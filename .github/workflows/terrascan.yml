@@ -1,4 +1,3 @@
-
 on: [push]
 
 jobs:
@@ -22,6 +21,8 @@ jobs:
         #policy_path:
         #skip_rules:
         #config_path:
+        #webhook_url:
+        #webhook_token:
     - name: Upload SARIF file
       uses: github/codeql-action/upload-sarif@v1
       with:
